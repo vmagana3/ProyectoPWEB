@@ -1,0 +1,37 @@
+body
+{
+	font-family: 'PT Sans', sans-serif;
+	background: #D3CCE3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Principal
+{
+	margin-bottom: 3.4%;
+}
+.Opciones
+{
+	height:100%;
+}
+
+.opcion
+{
+	-webkit-box-shadow: 1px 1px 52px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 52px -8px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 52px -8px rgba(0,0,0,0.75);
+}
+.Pie
+{
+	background: #D0CBCA;
+}
+img
+{
+	width: 10%;
+	height: 10%;
+	margin: 4% 0% 0% 0%;
+}
+img:hover
+{
+	transform: scale(1.1);
+	transition: 1s;
+}

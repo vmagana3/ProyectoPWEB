@@ -1,0 +1,21 @@
+body
+{
+	font-family: 'PT Sans', sans-serif;
+}
+table
+{
+	width: 100%;
+	-webkit-box-shadow: 1px 1px 52px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 52px -8px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 52px -8px rgba(0,0,0,0.75);
+	border: 1px solid black;
+}
+td
+{
+	background-color: blue;
+}
+
+tr:nth-child(even)
+{
+  color:green;
+}
